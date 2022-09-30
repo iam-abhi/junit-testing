@@ -6,7 +6,6 @@ public class Vehicle {
     private double gallonsOfGas;
     private int odometer;
 
-    
     public void go (int distance) {
         gallonsOfGas = gallonsOfGas - (distance/milesPerGallon);
         odometer += distance;
