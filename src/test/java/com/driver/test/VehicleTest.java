@@ -16,6 +16,13 @@ public class VehicleTest {
         thenOdometerIncreasesBy100AndGallonsOfGasDecreasesBy5();
     }
 
+    @Test
+    public void go_increasesOdometerBy100AndDecreasesGallonsOfGasBy5WhenMilesPerGallonIs20_2() {
+        givenVehicleHas0Odometer15GallonsOfGasAnd20MilesPerGallon();
+        whenDrive100();
+        thenOdometerIncreasesBy100AndGallonsOfGasDecreasesBy5();
+    }
+
     private void givenVehicleHas0Odometer15GallonsOfGasAnd20MilesPerGallon() {
         vehicle = new Vehicle();
         vehicle.setGallonsOfGas(15);
@@ -29,6 +36,8 @@ public class VehicleTest {
 
     private void thenOdometerIncreasesBy100AndGallonsOfGasDecreasesBy5() {
         assertEquals(10, vehicle.getGallonsOfGas());
-        assertEquals(105, vehicle.getOdometer());
+        assertEquals(100, vehicle.getOdometer());
     }
+
+
 }
