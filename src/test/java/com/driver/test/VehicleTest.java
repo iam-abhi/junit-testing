@@ -43,4 +43,5 @@ public class VehicleTest {
         assertEquals(10, vehicle.getGallonsOfGas());
         assertEquals(100, vehicle.getOdometer());
     }
+
 }
