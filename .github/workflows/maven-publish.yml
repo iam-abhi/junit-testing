@@ -27,5 +27,3 @@ jobs:
     - name: Junit Assignment Action
       id: assignmentAction
       uses: iam-abhi/junit-github-action@v0.2
-      # env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
