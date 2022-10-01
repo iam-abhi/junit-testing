@@ -9,12 +9,12 @@ public class VehicleTest {
 
     Vehicle vehicle;
 
-    @Test
-    public void go_increasesOdometerBy100AndDecreasesGallonsOfGasBy5WhenMilesPerGallonIs20() {
-        givenVehicleHas0Odometer15GallonsOfGasAnd20MilesPerGallon();
-        whenDrive100();
-        thenOdometerIncreasesBy100AndGallonsOfGasDecreasesBy5();
-    }
+    // @Test
+    // public void go_increasesOdometerBy100AndDecreasesGallonsOfGasBy5WhenMilesPerGallonIs20() {
+    //     givenVehicleHas0Odometer15GallonsOfGasAnd20MilesPerGallon();
+    //     whenDrive100();
+    //     thenOdometerIncreasesBy100AndGallonsOfGasDecreasesBy5();
+    // }
 
     @Test
     public void go_increasesOdometerBy100AndDecreasesGallonsOfGasBy5WhenMilesPerGallonIs20_2() {
