@@ -44,5 +44,4 @@ public class VehicleTest {
         assertEquals(100, vehicle.getOdometer());
     }
 
-
 }
