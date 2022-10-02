@@ -24,4 +24,4 @@ jobs:
         cache: maven
     - name: Junit Assignment Action
       id: assignmentAction
-      uses: iam-abhi/junit-github-action@v0.14
+      uses: iam-abhi/junit-github-action@v0.15
